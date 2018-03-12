@@ -12,14 +12,14 @@ namespace CharacterStats
             int energy = int.Parse(Console.ReadLine());
             int energyMax = int.Parse(Console.ReadLine());
 
-            string rpt1 = new String('|', health);
-            string rpt2 = new String('.', healthMax - health);
-            string rpt3 = new String('|', energy);
-            string rpt4 = new String('.', energyMax - energy);
+            string currentHealthString = new String('|', health);
+            string maximumHealthString = new String('.', healthMax - health);
+            string currentEnergyString = new String('|', energy);
+            string maximumEnergyString = new String('.', energyMax - energy);
 
             Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Health: |{rpt1}{rpt2}|");
-            Console.WriteLine($"Energy: |{rpt3}{rpt4}|");
+            Console.WriteLine($"Health: |{currentHealthString}{maximumHealthString}|");
+            Console.WriteLine($"Energy: |{currentEnergyString}{maximumEnergyString}|");
             
         }
 
