@@ -1,5 +1,7 @@
-# programming-fundamentals
-Programming fundamentals Repository
+# Exercises: C# Intro and Basic Syntax
+Problems for exercises and homework for the
+[“Programming
+Fundamentals Extended” course @ SoftUni](https://softuni.bg/courses/programming-fundamentals).
 
 ### Problem 1.              
 Debit Card Number
