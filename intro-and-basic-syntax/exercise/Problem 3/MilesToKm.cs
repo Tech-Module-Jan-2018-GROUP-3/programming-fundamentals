@@ -6,6 +6,8 @@ namespace Miles_to_Kilometers
     {
         static void Main(string[] args)
         {
+            //Confirmed by vallecbg
+
             // We receive from the console value in miles -> double;
             double miles = double.Parse(Console.ReadLine());
             // We calculate km
