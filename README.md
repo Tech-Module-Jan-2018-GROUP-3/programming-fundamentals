@@ -22,6 +22,16 @@ examples below for the appropriate formatting.
 | 5331  |                     | 3     |                     | 22    |                     |
 
 
+Problem 2.	Rectangle Area
+Write a program, which calculates a rectangle’s area, based on its width and height. The width and height come as floating point numbers on the console, formatted to the 2nd character after the decimal point.
+
+#### Examples
+| Input | Output | | Input | Output | | Input   | Output |
+|-------|--------|-|-------|--------|-|---------|--------|
+| 2     | 14.00  | |7  	   | 56.00  | | 12.33   | 61.65  |
+| 7     |        | |8  	   |        | | 5       |        |
+
+
 ### Problem 3.
 Miles to Kilometers
 
