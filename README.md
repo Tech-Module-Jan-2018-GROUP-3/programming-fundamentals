@@ -47,7 +47,7 @@ Note: **1 mile == 1.60934 kilometers**
 | 60    | 96.56  | |1  	   | 1.61   | | 52.1113 | 83.86  |
 
 
-#### Problem 4.               
+### Problem 4.               
 Beverage Labels
 
 Write a program, which reads a food product
