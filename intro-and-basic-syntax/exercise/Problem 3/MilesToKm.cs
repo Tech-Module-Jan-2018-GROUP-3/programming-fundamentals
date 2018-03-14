@@ -1,4 +1,5 @@
-﻿using System;
+﻿//CONFIRMED from vallecbg
+using System;
 
 namespace Miles_to_Kilometers
 {
@@ -6,7 +7,6 @@ namespace Miles_to_Kilometers
     {
         static void Main(string[] args)
         {
-            //Confirmed by vallecbg
 
             // We receive from the console value in miles -> double;
             double miles = double.Parse(Console.ReadLine());
