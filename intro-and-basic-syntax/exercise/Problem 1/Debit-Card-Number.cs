@@ -11,16 +11,16 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             // We receive from the Console 4 integers 
-            var firstLine = int.Parse(Console.ReadLine());
-            var secondLine = int.Parse(Console.ReadLine());
-            var thirdLine = int.Parse(Console.ReadLine());
-            var fourthLine = int.Parse(Console.ReadLine());
+            var firstNum = int.Parse(Console.ReadLine());
+            var SecondNum = int.Parse(Console.ReadLine());
+            var thirdNum = int.Parse(Console.ReadLine());
+            var fourthNum = int.Parse(Console.ReadLine());
 
             // Print them in 4-digit debit card format 
-            Console.WriteLine("{0} {1} {2} {3}", firstLine.ToString("D4"),
-                secondLine.ToString("D4"),
-                thirdLine.ToString("D4"),
-                fourthLine.ToString("D4"));
+            Console.WriteLine("{0} {1} {2} {3}", firstNum.ToString("D4"),
+                SecondNum.ToString("D4"),
+                thirdNum.ToString("D4"),
+                fourthNum.ToString("D4"));
         }
     }
 }
