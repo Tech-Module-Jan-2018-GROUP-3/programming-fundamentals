@@ -7,11 +7,11 @@ namespace Miles_to_Kilometers
         static void Main(string[] args)
         {
             // We receive from the console value in miles -> double;
-            double m = double.Parse(Console.ReadLine());
+            double miles = double.Parse(Console.ReadLine());
             // We calculate km
-            double km = m * 1.60934;
+            double kilometers = miles * 1.60934;
             // TODO
-            Console.WriteLine($"{km:f2}");
+            Console.WriteLine($"{kilometers:f2}");
         }
     }
 }
